@@ -37,4 +37,9 @@ The notebook `notebooks/electron_pu_bdt_tuning_autoencoder_210430.ipynb` is mean
 - Checking overtraining with a final set of hyperparameters
 
 ### BDT final training notebook
-To be continued...
+The final BDT ID training performed on the full sample is done in the notebook `notebooks/electron_pu_autoencoder_210430.ipynb`. Signal efficiencies as a function of $\eta$ and $p_T$ are computed, for a 99% inclusive signal efficiency working point.
+
+## Turnons and L1 $\to$ offline threshold mapping
+The energy corrections and BDT ID are then used to compute the efficiency turnons in the notebook `notebooks/electron_turnon_autoencoder_210430.ipynb`. 
+
+The turnon curves are finally used to extract the L1 $\to$ offline threshold mappings, which will be used to compare L1 rates as a function of the so-called offline threshold. In our case this offline threshold is defined as the gen-level $p_T$ at which the turnon reaches 95% efficiency.
